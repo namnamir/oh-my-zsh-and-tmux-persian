@@ -119,7 +119,7 @@ Shortcut | Explanation
 ^b { | Move to the next pane of a window (tab)
 ^b } | Move to the previous pane of a window (tab)
 
-#### 7.1. Changing the *tmux* Configuration File
+#### 7.2. Changing the *tmux* Configuration File
 To do so it is needed to create/modify a file in the home directory under the name of ```.tmux.conf```.
 
 ```bash
