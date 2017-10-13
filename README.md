@@ -93,7 +93,7 @@ logout | Logout form the current pane/window (doesn't clsoe it)
 exit | Close the current pane/window
 
 
-And the shortcuts when *tmux* is run. Note is that ^ means *Control* key and <alt> means *Alt* key; <command> means to write a command and <0-9> means a digit between 0 and 9.
+And the shortcuts when *tmux* is run. Note is that ^ means *Control* key and *<alt>* means *Alt* key; *<command>* means to write a command and <0-9> means a digit between 0 and 9.
 
 Shortcut | Explanation
 --- | ---
