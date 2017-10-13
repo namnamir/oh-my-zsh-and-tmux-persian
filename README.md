@@ -93,7 +93,7 @@ logout | Logout form the current pane/window (doesn't clsoe it)
 exit | Close the current pane/window
 
 
-And the shortcuts when *tmux* is run. Note is that ^ means *Control* key and *<alt>* means *Alt* key; *<command>* means to write a command and <0-9> means a digit between 0 and 9.
+And the shortcuts when *tmux* is run. Note is that ^ means *Control* key and < alt > means *Alt* key; < command > means to write a command and <0-9> means a digit between 0 and 9.
 
 Shortcut | Explanation
 --- | ---
@@ -126,7 +126,7 @@ To do so it is needed to create/modify a file in the home directory under the na
 nano ~/.tmux.conf
 ```
 
-For exmaple to change the default prefix which is ^b (or C-b or <ctrl>+b) to something else like ^a (or C-a or <ctrl>+a) which is used in *Screen* it is needed to unbind the current prefix and add the new one.
+For exmaple to change the default prefix which is ^b (or C-b) to something else like ^a (or C-a) which is used in *Screen* it is needed to unbind the current prefix and add the new one.
   
 ```bash
 unbind C-b
