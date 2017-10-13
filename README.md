@@ -80,7 +80,7 @@ For me, Tmux is the combination of Terminator and Screen.
 sudo apt-get install tmux
 ```
 #### 7.1. Cheatlist and Shortcuts of *tmux*
-Here are the commands to manage 
+Here are the commands to manage *tmux*
 
 Command | Explanation
 --- | ---
@@ -89,7 +89,8 @@ tmux new -s session_name | Start a new session
 tmux ls | List Sessions
 tmux kill-session -t session_name | Kill a session
 tmux kill-session -a | Kill all sessions except the one is active
-logout | Close the current pane/window
+logout | Logout form the current pane/window (doesn't clsoe it)
+exit | Close the current pane/window
 
 
 And the shortcuts when *tmux* is run. Note is that ^ means *Control* key and <alt> means *Alt* key; <command> means to write a command and <0-9> means a digit between 0 and 9.
@@ -117,3 +118,18 @@ Shortcut | Explanation
 ^b ^o | Swap panes
 ^b { | Move to the next pane of a window (tab)
 ^b } | Move to the previous pane of a window (tab)
+
+#### 7.1. Changing the *tmux* Configuration File
+To do so it is needed to create/modify a file in the home directory under the name of ```.tmux.conf```.
+
+```bash
+nano ~/.tmux.conf
+```
+
+For exmaple to change the default prefix which is ^b (or C-b or <ctrl>+b) to something else like ^a (or C-a or <ctrl>+a) which is used in *Screen* it is needed to unbind the current prefix and add the new one.
+  
+```bash
+unbind C-b
+set-option -g prefix C-a
+bind C-a send-prefix
+```
