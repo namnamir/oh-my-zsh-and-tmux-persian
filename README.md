@@ -95,11 +95,16 @@ exit | Close the current pane/window
 
 And the shortcuts when *tmux* is run. Note is that ^ means *Control* key and < alt > means *Alt* key; < command > means to write a command and <0-9> means a digit between 0 and 9.
 
+##### Sessions
 Shortcut | Explanation
 --- | ---
 ^b : <command> | Run a command
 ^b s | List current sessions
 ^b $ | Rename the current session
+
+##### Window
+Shortcut | Explanation
+--- | ---
 ^b c | Create a new window (tab)
 ^b w | List current windows (tabs)
 ^b <0-9> | Go to the window (tab) number 0 to 9
@@ -110,6 +115,10 @@ Shortcut | Explanation
 ^b & | Kill a window (tab)
 ^b % | Split a window vertically to panes
 ^b " | Split a window horizontally to panes
+
+##### Pane
+Shortcut | Explanation
+--- | ---
 ^b x | Kill the active pane
 ^b <alt><arrow> | Change the size of the pane
 ^b ^<arrow> | Change the size of the pane
