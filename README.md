@@ -79,7 +79,7 @@ For me, Tmux is the combination of Terminator and Screen.
 ```bash
 sudo apt-get install tmux
 ```
-#### 7.1. Cheatlist and Shortcuts of *tmux*
+#### 7.1. Cheatlist and Shortcut Keys of *tmux*
 Here are the commands to manage *tmux*
 
 Command | Explanation
@@ -95,14 +95,14 @@ exit | Close the current pane/window
 
 And the shortcuts when *tmux* is run. Note is that ^ means *Control* key and \<alt\> means *Alt* key; \<command\> means to write a command, \<arrow\> means the arrow keys and \<0-9\> means a digit between 0 and 9.
 
-##### Sessions
+##### tmux Sessions's Shortcut Keys
 Shortcut | Explanation
 --- | ---
 ^b : \<command\> | Run a command
 ^b s | List current sessions
 ^b $ | Rename the current session
 
-##### Window
+##### tmux Window's Shortcut Keys
 Shortcut | Explanation
 --- | ---
 ^b c | Create a new window (tab)
@@ -116,7 +116,7 @@ Shortcut | Explanation
 ^b % | Split a window vertically to panes
 ^b " | Split a window horizontally to panes
 
-##### Pane
+##### tmux Pane's Shortcut Keys
 Shortcut | Explanation
 --- | ---
 ^b x | Kill the active pane
