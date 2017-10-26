@@ -93,12 +93,12 @@ logout | Logout form the current pane/window (doesn't clsoe it)
 exit | Close the current pane/window
 
 
-And the shortcuts when *tmux* is run. Note is that ^ means *Control* key and < alt > means *Alt* key; < command > means to write a command and <0-9> means a digit between 0 and 9.
+And the shortcuts when *tmux* is run. Note is that ^ means *Control* key and \<alt\> means *Alt* key; \<command\> means to write a command and \<0-9\> means a digit between 0 and 9.
 
 ##### Sessions
 Shortcut | Explanation
 --- | ---
-^b : <command> | Run a command
+^b : \<command\> | Run a command
 ^b s | List current sessions
 ^b $ | Rename the current session
 
@@ -107,7 +107,7 @@ Shortcut | Explanation
 --- | ---
 ^b c | Create a new window (tab)
 ^b w | List current windows (tabs)
-^b <0-9> | Go to the window (tab) number 0 to 9
+^b \<0-9\> | Go to the window (tab) number 0 to 9
 ^b n | Move to the next window (tab)
 ^b p | Move to the previous window (tab)
 ^b f | Find a window (tab)
@@ -120,9 +120,8 @@ Shortcut | Explanation
 Shortcut | Explanation
 --- | ---
 ^b x | Kill the active pane
-^b <alt><arrow> | Change the size of the pane
-^b ^<arrow> | Change the size of the pane
-^b <arrow> | Switch between panes of a window (tab)
+^b \<alt\>\<arrow\> | Change the size of the pane
+^b \<arrow\> | Switch between panes of a window (tab)
 ^b o | Switch between panes of a window (tab)
 ^b ^o | Swap panes
 ^b { | Move to the next pane of a window (tab)
